@@ -37,6 +37,9 @@ exclude = [
 ]
 pythonVersion = "3.9"
 
+[tool.typos]
+default = { extend-ignore-words = ["ND"] }
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
