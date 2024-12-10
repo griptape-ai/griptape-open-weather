@@ -3,7 +3,7 @@ from unittest.mock import patch
 import pytest
 
 from griptape.artifacts import ErrorArtifact
-from griptape.tools import OpenWeatherTool
+from griptape.open_weather.tools import OpenWeatherTool
 
 
 @pytest.fixture()
